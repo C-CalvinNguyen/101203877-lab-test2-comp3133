@@ -12,6 +12,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import {MatButtonModule} from '@angular/material/button';
     NoopAnimationsModule,
     HttpClientModule,
     MatListModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

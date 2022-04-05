@@ -8,9 +8,17 @@ import { Mission } from 'src/models/mission';
 })
 export class MissiondetailsComponent implements OnInit {
 
+  @Input('item') mission: any
+  seeDetails = false;
+
   constructor() { }
 
   ngOnInit(): void {
+
+  }
+
+  openDetails() {
+    this.seeDetails = !this.seeDetails;
   }
 
 }
