@@ -1,0 +1,22 @@
+img {
+  width: 100px;
+  height: 100px;
+  padding-right: 20px;
+}
+
+.page_header {
+  text-align: center;
+}
+
+mat-list {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+mat-list-item {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 80vw;
+  background-color: lightgrey;
+}

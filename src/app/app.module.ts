@@ -4,8 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { MissionlistComponent } from './components/missionlist/missionlist.component';
-import { MissiondetailsComponent } from './components/missiondetails/missiondetails.component';
+import { MissionlistComponent } from './missionlist/missionlist.component';
+import { MissiondetailsComponent } from './missiondetails/missiondetails.component';
+
+// Imports
+import { HttpClientModule } from '@angular/common/http';
+
+import {MatListModule} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,10 @@ import { MissiondetailsComponent } from './components/missiondetails/missiondeta
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    HttpClientModule,
+    MatListModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Mission } from 'src/models/mission';
 
 @Component({
   selector: 'app-missiondetails',
